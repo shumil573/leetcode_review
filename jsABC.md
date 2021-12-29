@@ -54,6 +54,14 @@ map.get()
 
 数组删除nums[0]的元素  Array.shift()
 
+#### 二维数组
+
+声明方式（需要知道两个维的大小 map 
+
+二维数组的创建方法（304题官方题解) 
+
+this.sums = new Array(m +1).fill(0).map(() => new Array(n + 1).fill(0));
+
 ### 语法糖和新用法
 
 ### 未解之谜
