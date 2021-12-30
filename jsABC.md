@@ -14,6 +14,8 @@ function connectStep (left,right)
 
 #### map
 
+可做哈希数组用（还是就是？ 例，前缀和+哈希：560. 和为 K 的子数组
+
 const count = new Map();  
 
 map.set(a,key)  
@@ -53,6 +55,8 @@ map.get()
 #### Array
 
 数组删除nums[0]的元素  Array.shift()
+
+排序 array.sort() 排序纯数字数组时，反而会出错，例如“25”>“101”，因为2>1。所以需要自己写cmp函数
 
 #### 二维数组
 
